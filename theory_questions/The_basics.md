@@ -1,5 +1,9 @@
 # Semiconductor Handbook Questions: The basics
 
+---
+
+---
+
 ## Chapter I: Introduction & Semiconductor Properties
 
 ### I.1 Scope of the Course
@@ -74,6 +78,8 @@
 
 ---
 
+---
+
 ## Chapter II: The Basic Equations
 
 ### II.1 The pn-product
@@ -86,8 +92,6 @@
 4. What is the significance of the intrinsic carrier concentration, and how is it derived?
 5. How does temperature affect the intrinsic carrier concentration in semiconductors like Si, Ge, and GaAs?
 
----
-
 #### II.1.1.2 The Doped Semiconductor
 
 1. How is a doped semiconductor also called? 
@@ -95,8 +99,6 @@
 3. What is the difference between $N_A , N_D, N_v, N_c, N_A^-, N_D^+$
 4. How is charge neutrality maintained in a doped semiconductor?
 5. What is the effect of doping on the Fermi level for a p- or n-type semiconductor?
-
----
 
 #### II.1.2 Semiconductor Out of Equilibrium
 
@@ -117,118 +119,106 @@
 4. How does recombination drive a semiconductor back to equilibrium?
 5. What is the significance of the minority carrier lifetime in recombination processes?
 
----
-
 #### II.2.2.1 Shockley-Read-Hall Generation and Recombination
 
-1. What is the physical mechanism behind Shockley-Read-Hall (SRH) recombination?
-2. How do trap levels in the bandgap facilitate recombination?
-3. What factors influence the efficiency of SRH recombination?
-4. How does recombination via deep-level traps differ from direct band-to-band recombination?
-5. What is the significance of recombination centers in semiconductor devices?
+###### BULK CENTERS
 
----
+1. What is the physical mechanism behind Shockley-Read-Hall (SRH) recombination?
+2. What factors influence the efficiency of SRH recombination?
+3. What is the significance of recombination centers in semiconductor devices? On what carrier concentration does if have more effect (majority or minority)?
+4. When does the minority carrier rule not apply? Give an example of such a sytem.
+5. Which recombination centers are the most efficient?
+
+###### SURFACE AND INTERFACE STATES
+
+1.  How are Tamm surface states created?
+
+2. What are the 2 main differences with the analysis of bulk centers?
+
+3. Only the contribution from the traps around a window of what length around $E_i$ are of importance of the rec/gen rate?
 
 #### II.2.2.2 Radiative Generation and Recombination
 
-1. How does radiative recombination differ from other recombination mechanisms?
-2. What is the role of photons in radiative recombination?
-3. Why is radiative recombination dominant in direct bandgap semiconductors like GaAs?
-4. How does temperature affect radiative recombination efficiency?
-5. What are some practical applications of radiative recombination in optoelectronic devices?
-
----
+1. Explain a radiative recombination process.
+2. In what kind of semiconductors is this effect negligible? Why?
+3. How does temperature affect radiative recombination efficiency?
+4. What carrier concentration is usually not significantly altered by this kind of recombination? What implications does this have on the formula for $R_r$?
+5. When and where does radiative generation happen?
 
 #### II.2.2.3 Auger Recombination and Impact Ionization
 
-1. How does Auger recombination differ from radiative recombination?
-2. What role do excess carriers play in Auger recombination?
+1. How much particles are involved in this process?
+2. What role does doping have on Auger recombination?
 3. How does carrier concentration influence Auger recombination efficiency?
 4. What is impact ionization, and how does it contribute to carrier generation?
 5. In what types of semiconductor devices is impact ionization a critical phenomenon?
 
----
-
 #### II.2.2.4 Relative Importance of Different Recombination Mechanisms
 
-1. Under what conditions does Shockley-Read-Hall recombination dominate?
-2. When is radiative recombination the primary carrier recombination mechanism?
-3. Why is Auger recombination more significant in heavily doped semiconductors?
-4. How does temperature influence the competition between recombination mechanisms?
-5. Why is it important to understand different recombination mechanisms in device design?
+1. Describe the relative importance of each contribution for the three different minority carrier lifetimes as a function of the doping level. (Figure II.10)
 
 ---
 
 ### II.3 Carrier transport
 
+#### II 3.1 Band structure and electric field; the electrostatic potential
+
+1. What is the relation between the coulomb force, electric field and electric potential energy on an electron when a field is applied.
+
 #### II.3.2.1 Drift
 
-1. What is drift current, and what causes it in semiconductors?
-2. How does an electric field influence carrier motion?
-3. What is the relationship between drift velocity and carrier mobility?
-4. How does temperature impact carrier mobility in the drift process?
-5. What factors determine the drift current density in a semiconductor?
+###### The drift velocity
 
----
+1. How do electrons and holes move when in equilibrium? How is this velocity called?
+2. How does an electric field influence carrier motion? How is this velocity called?
+3. What is mobility? Of what is it a function? 
+4. Give 2 important scattering mechanisms in Si.
+5. Explain this statement: "The holes have smaller mobility than the electrons."
+6. What is saturation drift velocity? When does it happen? Why does it happen? Give approximate values of the saturation drift velocity and at what field it is reached.
+7. Why does GaAs staturation velocity decrease at 3000V/cm
+
+###### The drift current
+
+1.  Explain how the drift current formula's are formed.
 
 #### II.3.2.2 Diffusion
 
-1. What is diffusion in the context of semiconductor carrier transport?
-2. How is diffusion current generated in a semiconductor?
-3. What is the relationship between carrier concentration gradient and diffusion current?
-4. How does the Einstein relation connect diffusion coefficient and mobility?
-5. What practical applications rely on carrier diffusion in semiconductors?
-
-
-
----
+1. What is diffusion? Where does it come from?
+2. How does the Einstein relation connect diffusion coefficient and mobility? What role does the temperature play in this?
+3. What practical applications rely on carrier diffusion in semiconductors?
 
 #### II.3.3 The Current Equations
 
 1. What are the components of the electronic current in semiconductors?
-2. How does the gradient of the quasi-Fermi level influence carrier transport?
-3. Why is the difference in Fermi level between two contacts important?
-4. What role does the externally applied voltage play in determining the electrochemical potential?
-5. How is the mobility-modulated carrier concentration related to current flow?
-
----
-
-
+2. For a given semiconductor, what gradient is the driving force behind the current.
+3. How can the current equations be linked to force?
+4. Why is a semiconductor electrode junction in equilibrium? What does this mean for the quasi fermi level of the electrons and holes in one of the semiconductor materials? 
+5. What does the difference between the two fermi levels of the two semiconductor materials on a electrode junction signify?
+6. Why is the field in the bulk of an extrinsic semiconductor usually very small?
+7. What carriers (majority/minority) have the most effect on diffusion current. Why?
+8. How is the mobility-modulated carrier concentration related to current flow?
 
 #### II.3.4 The Continuity Equation
 
-1. What are the key factors that cause changes in carrier concentration over time?
-2. How does steady-state condition modify the continuity equation?
-3. Why is minority carrier diffusion more significant than drift in an extrinsic semiconductor?
-4. How does the presence of non-constant doping affect electric fields and carrier drift?
-5. What is the significance of the terms in Equation (71) for minority carriers?
+1. What do the continuity equations express? 
+2. What is the fundamental origin of a change in carrier concentration in an elementary volume?
+3. What simplifications can be made? 
 
 ---
-
-
 
 ### II.4 Poisson Equation
 
 1. How is space charge density related to the electrostatic potential?
-2. Why is the permittivity of a material important in solving Poisson’s equation?
+2. Why is the equation for space charge density in semiconductors sensical? How does it relate to the charge neutrality: $p + N_D = n + N_A$?
 3. How does the space charge density differ between semiconductors and insulators?
-4. What factors contribute to a fixed charge in insulators?
-5. Why can the free carrier concentration in an insulator usually be neglected?
 
 ---
-
-
 
 ### II.5 Summary of the Semiconductor Equations
 
 1. What are the ten fundamental semiconductor equations?
-2. Why are boundary conditions necessary for solving semiconductor equations?
-3. How do initial conditions influence the solution of semiconductor equations?
-4. Why is computer simulation often required for solving semiconductor problems?
-5. Under what conditions can analytical solutions be found for semiconductor equations?
+2. What arethe physical and time-based boundary conditions necessary for solving semiconductor equations?
 
 ----
-
-
 
 ChatGPT & Dante
