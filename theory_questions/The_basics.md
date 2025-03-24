@@ -179,7 +179,7 @@
 
 ###### The drift current
 
-1.  Explain how the drift current formula's are formed.
+1. Explain how the drift current formula's are formed.
 
 #### II.3.2.2 Diffusion
 
