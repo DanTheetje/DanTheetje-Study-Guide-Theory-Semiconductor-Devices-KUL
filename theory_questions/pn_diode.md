@@ -93,42 +93,49 @@
 
 ##### III.3.1.3 Contribution of Majority Carriers
 
-- How do majority carriers contribute to current flow in a diode?
-- Why can’t the Shockley approximation evaluate the drift current of majority carriers?
+- Why does the majority carrier concentration adjust itself?
+- Why is the majority current only deducable from the minority current?
+- Why can’t the Shockley approximation evaluate the drift current of majority carriers? (Because of there actually being a small field in the neutral region that creates non-neglible driftcurrent)
 
 #### III.3.2 High Injection
 
-- What is the high injection condition in a p-n diode?
-- How does high injection affect current-voltage characteristics?
+- When is the forward bias high enough to make the definitions of minority and majority carriers obsolete?
+- What is the High Injection region?
+- How does high injection affect current-voltage characteristics? draw qualitatively a current voltage plot. 
 
 #### III.3.3 Generation and Recombination Currents
+
+* Why does recombination happen when a forward bias is applied and generation happen when a reverse bias is applied?
 
 ##### III.3.3.1 Forward Bias
 
 - What role does recombination play in the forward bias region?
-- How is the recombination current calculated?
+- What three regions can be found in the J-V characteristic for the total forward bias current? Why?
 
 ##### III.3.3.2 Reverse Bias
 
-- What are the sources of reverse current in a p-n diode?
 - Why does the reverse current increase with increasing reverse bias?
+- By what is the total reverse current given? What term dominates for a large or small bandgap material?
 
 #### III.3.4 Junction Breakdown
 
 ##### III.3.4.1 Zener Effect
 
 - What is the Zener breakdown mechanism?
-- How does quantum mechanical tunneling contribute to Zener breakdown?
+- How big is the field for Zener breakdown to occur? How much volt then can be put on a Si or Ge semiconductor?
+- What happens with this voltage if the temperature increases?
 
 ##### III.3.4.2 Avalanche Breakdown
 
-- How does impact ionization lead to avalanche breakdown?
-- Under what conditions does avalanche breakdown occur?
+- How does impact ionization lead to avalanche breakdown? Explain the physical mechanism.
+- When does avalanche breakdown mathematically occur?
+- How is breakdown voltage related to doping concentrations and bandgap?
+- Why can diodes be made that break down with zero temperature coefficient (no temperature dependence)?
 
 #### III.3.5 Current Characteristics of a p-n Diode
 
-- What is the general shape of the I-V curve for a p-n diode?
-- How do forward and reverse characteristics differ?
+- What is the general shape of the I-V curve for a p-n diode for forward and reverse bias? Explain.
+- What is the ideality factor that can be used to represent the current mechanisms in the forward bias?
 
 ---
 
