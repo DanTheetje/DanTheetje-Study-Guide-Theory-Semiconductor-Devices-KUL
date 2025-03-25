@@ -149,45 +149,36 @@
 #### III.4.2 Diffusion Capacitance
 
 - How is diffusion capacitance different from junction capacitance?
-- How does it affect diode performance?
+- How does diffusion capacitance depend on bias voltage?
 
 ---
 
 ### III.5 Network Models of a p-n Diode and Their Use
 
+- What is a small signal equivalent model?
+- What is the general transient analysis?
+
 #### III.5.1 General Network Model
 
-- What are the key components of a diode’s network model?
-- How can this model be used in circuit simulations?
+* Why can the diffusion capacitance be seen as a capacitance on across the junction?
 
 #### III.5.2 Small-Signal Equivalent
 
-- What is the significance of small-signal models for diodes?
+- What are the key components of a diode’s network model?
 - How is the small-signal resistance of a diode determined?
+- What is the cutoff frequency of this network?
+-  What is the transit time $\tau_f$ of the minority carriers? What has it to do with the cutoff frequency?
+- What does transit time mean for a short region and for a long region?
+- What capacitance can be neglegted in reverse bias?
 
 #### III.5.3 Transient Behavior of a Diode
 
-- What factors influence the transient response of a diode?
-- How does charge storage affect diode switching times?
+- Assume $T>>\tau_f$ . How does the minority carrier concentration change in a short region? How does it change in a long region?
+- What is the effect of a voltage change in a time $T$ when  $T<<\tau_f$ or $T>>\tau_f$ ? What equations can be used for each case?
 
 ---
 
-### III.6 Heterojunction
-
-#### III.6.1 Material Issues
-
-- What materials are commonly used in heterojunctions?
-- How do heterojunctions differ from standard p-n junctions?
-
-#### III.6.2 Potentials and Band Bending in a Heterojunction
-
-- How do energy band alignments affect carrier transport in heterojunctions?
-- What is the role of band offsets in heterojunction behavior?
-
-#### III.6.3 Current Equations
-
-- How does current flow differ in heterojunctions compared to homojunctions?
-- What modifications are needed to traditional diode equations for heterojunctions?
+### III.6 Heterojunction -> NOT SEEN
 
 ---
 
@@ -196,11 +187,13 @@
 #### III.7.1 Description
 
 - What is the structure of a p-i-n diode?
+- What are the four advantages of the p-i-n diode?
 - How does the intrinsic region affect its electrical characteristics?
 
 #### III.7.2 Forward Bias
 
-- How does carrier injection in a p-i-n diode differ from a standard p-n diode?
-- Why is the p-i-n diode useful in high-speed and power applications?
+- What is the approach to find the Forward Bias Voltage necessary to realise a desired current?
+
+---
 
 ChatGPT & Dante 
